@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      h1 {
+        background-color: pink;
+        height: 80px;
+        padding-top: 40px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        position: relative;
+      }
+      h1 :hover {
+        background-color: blue;
+        color: yellow;
+      }
+      h2 {
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+      }
+      h2:hover {
+        background-color: brown;
+        
+      }
+      label {
+        color: darkblue;
+      }
+      input {
+        background-color: antiquewhite;
+        image-rendering: auto;
+        border-radius: 8px;
+      }
+      .form {
+        background-color: lightblue;
+        margin-left: 400px;
+        border: 10px;
+        padding: 20px;
+        width: 500px;
+        border-radius: 10px;
+        margin-top: 5px;
+        float: right;
+        
+      }
+      .button {
+        background-color: green;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 300px;
+        border-radius: 8px;
+      }
+      .box {
+        width: 300px;
+      }
+      div {
+        border: 2px lightgray;
+        margin-top: 2px;
+        padding: 5px;
+        border-radius: 6px;
+      }
+      .remember {
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+      input {
+        height: 20px;
+      }
+      button:hover {
+        background-color: blue;
+        color: white;
+      }
+      .div1 {
+        width: 500px;
+        background-color: yellow;
+        margin-top: 20px;
+        float: center;
+        margin-left: 30%;
+        text-align: center;
+      }
+      checkbox {
+        margin-left: 10px;
+      }
+      .img1 {
+        float: left;
+        width: 350px;
+        margin-top: 0px;
+        height: 500px;
+      }
+    </style>
+    <h1 style="color: black; text-align: center;" class="libmang">
+      Library Management System
+    </h1>
+  </head>
+  <body>
+    <img:back></img:back>
+    <div class="div1">
+      <div>
+        <h2>Resigter Yourself</h2>
+        <form action="form.php">
+          <br />
+          <label
+            for="Fname"
+            style="position: relative; float: left; margin-left: 100px;"
+          >
+            First Name
+          </label>
+          <br />
+          <input
+            type="text"
+            name="Name"
+            placeholder="Enter Your First Name"
+            class="box"
+          />
+          <br />
+          <label
+            for="Lname"
+            style="position: relative; float: left; margin-left: 100px;"
+          >
+            Last Name
+          </label>
+          <br />
+          <input
+            type="text"
+            name="Name"
+            placeholder="Enter Your Last Name"
+            class="box"
+          />
+          <br />
+          <label
+            for="Phone Number"
+            style="position: relative; float: left; margin-left: 100px;"
+          >
+            Phone Number
+          </label>
+          <br />
+          <input
+            type="text"
+            name="Phone Number"
+            id="Phone Number"
+            placeholder="Enter Your Phone Number"
+            class="box"
+          />
+          <br />
+          <label
+            for="E-mail Id"
+            style="position: relative; float: left; margin-left: 100px;"
+          >
+            E-mail Id
+          </label>
+          <br />
+          <input
+            type="text"
+            name="E-mail Id"
+            placeholder="Enter Your E-mail Id"
+            class="box"
+          />
+          <br />
+          <label
+            for="Designation"
+            style="position: relative; float: left; margin-left: 100px;"
+          >
+            Designation
+          </label>
+          <br />
+          <input
+            type="text"
+            name="Designation"
+            placeholder="Enter Your Designation"
+            class="box"
+          />
+          <br />
+          <input type="checkbox" name="go back" id="go back" class="remember" />
+          remember me
+          <br />
+          <button style="height: 30px;" class="button">
+            submit
+          </button>
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

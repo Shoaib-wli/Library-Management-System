@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: green;
+  height: 150px;
+  border-radius: 10px;
+}
+ul:hover{
+  color: red;
+}
+h1{
+  text-align: center;
+
+}
+li a, .dropbtn1 {
+  display: inline-block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  color: red;
+  background-color: yellow;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;  
+}
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: yellow;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+li {
+  float: left;
+}
+.img1
+{
+  width: 350px;
+  height: 550px;
+  float: right;
+  margin-top: 20px;
+  border-radius: 10px; 
+}
+.img2
+{
+  width: 250px;
+  height: 550px;  
+  margin-top: 10px;
+  float : left;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.img3
+{
+  width: 50%;
+  margin: left 10px;;
+  margin-right: 10px;
+}
+p{
+  width: 900px;
+  margin-left: 10px;
+}
+.container{
+  -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 17px;
+    line-height: 1.428571429;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    color: #bdc3c7;
+    background-color: #3f4a8b72;
+  }
+h1{
+  margin-left: 10px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <ul>
+      <h1>Welcome to library Management System</h1>
+      <li class="dropdown">
+        <a href="#" class="dropbtn1" >Home</a>
+        <div class="dropdown-content">
+          <a href="reg_page.html">Registration</a>
+          <!-- <a href="login.html">login</a> -->
+        </div>
+      </li>
+        <li><a  href="#aboutus" >AboutUs</a></li>
+        <li><a  href="#aboutus" >ContactUs</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn1" >Syllabus Books</a>
+          <div class="dropdown-content">
+            <a href="#">Computer Engineering</a>
+            <a href="#">Civil Engineering</a>
+            <a href="#">Mechanical Engineering </a>
+            <a href="#">AI and DS </a>
+            <a href="#">Electrical Engineering</a>
+            <a href="#">Chemical Engineering </a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn1" >programing Books</a>
+          <div class="dropdown-content">
+            <a href="#">C language</a>
+            <a href="#">C++ language</a>
+            <a href="#">Phython </a>
+            <a href="#">My Sqel </a>
+            <a href="#">Java </a>
+            <a href="#">Java Script </a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn1" >Journals</a>
+          <div class="dropdown-content">
+            <a href="#">Blockchain Technology</a>
+            <a href="#">Cloud Computing Technology</a>
+            <a href="#"> Machine Learning </a>
+            <a href="#">Deep Learining </a>
+          </div>
+        </li>
+      </ul>
+    
+        <img class="img1" src="https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/What-is-School-Management-Software-1.png" alt="Library's image" >
+        <img class="img2" src="https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-SYSTEM-DOES-A-LIBRARY-USE-min.png" alt="Library's image">
+      
+      
+      <div>
+        <img class="img3"src="https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/HOW-DO-YOU-DESIGN-A-LIBRARY-MANAGEMENT-SYSTEM-min.png" alt="library image">
+        <h1>Libaray Management System</h1>
+        <p>
+          The purpose of a library management system is to operate a library with efficiency and at reduced costs. The system being entirely automated streamlines all the tasks involved in operations of the library. The activities of book purchasing, cataloging, indexing, circulation recording and stock checking are done by the software. Such software eliminates the need for repetitive manual work and minimizes the chances of errors.
+
+The library management system software helps in reducing operational costs. Managing a library manually is labor intensive and an immense amount of paperwork is involved. An automated system reduces the need for manpower and stationery. This leads to lower operational costs.
+
+The system saves time for both the user and the librarian. With just a click the user can search for the books available in the library. The librarian can answer queries with ease regarding the availability of books. Adding, removing or editing the database is a simple process. Adding new members or cancelling existing memberships can be done with ease.
+
+Stock checking and verification of books in the library can be done within a few hours. The automated system saves a considerable amount of time as opposed to the manual system.
+
+The library management system software makes the library a smart one by organizing the books systematically by author, title and subject. This enables users to search for books quickly and effortlessly.
+
+Students need access to authentic information. An advanced organized library is an integral part of any educational institution. In this digital age a web based library management system would be ideal for students who can access the library’s database on their smartphones.
+        </p>
+      </div class="footer">
+      <footer id="footer" class="midnight-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6"> © 2022 <a target="_blank" href="#">Library  Management System</a>. All Rights Reserved. </div>
+            <div class="col-sm-6">
+              <ul class="pull-right">
+                <li><a href="heading.html">Home</a></li>
+                <li><a href="eduflex-terms.pdf" target="_blanks">AboutUs</a></li>
+                <li><a href="contact-eduflex.html">Contact Us</a></li>
+                <!--#gototop-->
+              <li><a href="https://www.linkedin.com/school/eduflex-school-and-college-erp-solutions/" title="Linkedin" target="_blanks"><i class="fa fa-linkedin" aria-hidden="true">Linkedin</i></a></li>
+              <li><a href="https://www.facebook.com/eduflexerp/" title="Facebook" target="_blanks"><i class="fa fa-facebook-square" aria-hidden="true">Facebook</i></a></li>
+              <li><a href="https://twitter.com/Eduflex_ERP" target="_blanks" title="Linkedin"><i class="fa fa-twitter-square" aria-hidden="true">twitter</i></a></li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+    </div>
+</body>
+</html>
